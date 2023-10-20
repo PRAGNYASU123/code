@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>PRAGNYASU THIS SIDE</h1>
+    <br>
+    <h2>This is HTML forms</h2>
+    <!-- div is used for new line & avoid of using br. -->
+    <form action="backend.php">
+        <br>
+        <!-- label tag is used as it allows users to click on the label text to focus on the associated input, making it easier for them to interact with your web page -->
+        <label for="name"></label>
+        <label for="Role"></label>
+        <br>
+        <div>
+            Name: <input type="text" name="myname" id="name">
+            <!-- OR U CAN WRITE LIKE THIS  -->
+        </div>
+        <br>
+        <div>
+            <form action="web6.html">
+                <input type="text" placeholder="USERNAME">
+            </form>
+        </div>
+        <br>
+        <div>
+            <br>
+            <div>
+                Role: <input type="text" name="myrole" id="Role">
+            </div>
+            <br>
+            <div>
+                Employee id: <input type="number" name="myid">
+                <div>
+                    <br>
+                    <div>
+                        Email: <input type="email" name="myEmail" id="">
+                    </div>
+                    <br>
+                    <div>
+                        <input type="datetime-local" name="time" id="">
+                    </div>
+                    <br>
+                    <div>
+                        Category: <select name="Category" id="myCategory">
+                            <option value="Gen">General</option>
+                            <option value="SC/ST">schedule caste/schedule Tribe</option>
+                            <option value="OBC">other backward caste</option>
+                            <option value="Pwd">physical with disable</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        write about yourself: <br><textarea name="MyText" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        are you Eligible? : <input type="checkbox" name="MyEligibility" id="">
+                    </div>
+                    <br>
+                    <div>
+                        Gender: Male <input type="radio" name="myGender" id=""> Female <input type="radio"
+                            name="myGender" id=""> LGBTQ <input type="radio" name="myGender" id="">
+                    </div>
+                    <br>
+                    <div>
+                        <input type="submit" value="Submit Now">
+                    </div>
+                    <br>
+                    <div>
+                        <!-- OR U CAN DO LIKE THIS FOR SUBMIT BUTTON(PREFFERD)  -->
+                        <button type="submit">SUBMIT</button>
+                    </div>
+                    <br>
+                    <div>
+                        <input type="button" value="RESET">
+                    </div>
+
+    </form>
+    <img src="https://source.unsplash.com/1600x900/?marvel" alt="Error loading image">
+</body>
+
+</html>

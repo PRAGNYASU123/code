@@ -1,0 +1,35 @@
+/* google fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@500&family=Poppins&display=swap');
+*{
+font-family: Poppins;
+box-sizing: border-box;
+margin: 0%;
+padding: 0%;
+}
+
+header {
+    width: 200px ;
+    background-color: #4c4cd0;
+    padding: 10px 390px;
+    display: flex ;
+    justify-content: space-between ;
+}
+header a{
+    color: rgb(253, 253, 255);
+}
+header.Bytes.com a{
+    font-weight: 700;
+    /* display: flex;
+    gap: 250px;
+    justify-content: left; */
+}
+header.nav_links a{
+    text-transform: uppercase;
+    margin: 0 10px;
+    padding: 10px;
+    
+}
+header .nav_links a:hover{
+    color: aliceblue;
+    transition: all 0.4s ease;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDS & Classes</title>
+</head>
+
+<body>
+    <h3>Ids and classes tutorial</h3>
+    <!-- Assume that I am having 100 elements in my HTML and I want to give a red background to all the 100 elements. To do this, we have two options. Either we have to select each element and assign a red background to it or we can create a class redBG and assign a red background to it. Then we can give this class to the elements in which we want a red background color. To avoid confusion, I am assuming that the class redBG is already defined. -->
+    <!-- The ID is an identifier which must be unique in the whole HTML document. It is used to find an element while linking, scripting, or styling but in the case of classes. An element can have more than one class in itself. The more classes we add in an element, the more property will get added to it -->
+    <div id="mainBox" class="redBg blackBorder">
+        this is mainbox
+    </div>
+    <span class="redBg"></span>
+    <!-- Emmet -->
+    <!-- . is for class and # is for id -->
+    <span class="redBg"></span>
+    <span id="mainSpan"></span>
+    <div class="redBg blackBorder anotherClass"></div>
+
+    <!-- Emmet takes div tag as default -->
+    <div class="blackBackground"></div>
+
+    <!-- Creating multiple elements using Emmet -->
+    <!-- span.myClass.myClass2.myClass3*4 + <Tab> to print 4 similar elements using Emmet -->
+    <span class="myClass myClass2 myClass3">First</span>
+    <span class="myClass myClass2 myClass3">Second</span>
+    <span class="myClass myClass2 myClass3">Third</span>
+    <span class="myClass myClass2 myClass3">Fourth</span>
+
+</body>
+
+</html>
+
+
+
+
+</body>
+
+</html>
